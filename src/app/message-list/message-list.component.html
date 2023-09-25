@@ -1,0 +1,5 @@
+<p>message-list works!</p>
+<h3>Lista de mensajes</h3>
+<div *ngIf="list.length">
+  <p *ngFor="let message of list">{{ message }}</p>
+</div>

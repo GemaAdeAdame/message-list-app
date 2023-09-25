@@ -1,0 +1,6 @@
+<p>new-message works!</p>
+<h3>Nuevo mensaje</h3>
+<form (submit)="onSubmit()">
+  <label>Mensaje: <input type="text" [(ngModel)]="message" /></label>
+  <button class="button" type="submit">Crear</button>
+</form>
